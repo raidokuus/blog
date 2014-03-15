@@ -1,5 +1,5 @@
 <div class="list-group">
-    <a href="#" class="list-group-item active"><?=$this->params[0]?></a>
+    <a href="#" class="list-group-item active"><?=$this->params[1]?></a>
     <?foreach ($posts as $post):?>
         <div class="list-group-item">
 
