@@ -14,5 +14,7 @@ class tags extends Controller{
         $this->posts = get_all("SELECT post.*, user.username
 		 FROM post_tags NATURAL JOIN post NATURAL JOIN user WHERE tag_id='$tag_id'
 		 ");
+        $this->tag_name = get_one("SELECT tag_name FROM tag WHERE tag_id='$tag_id'");
+        
     }
 }
