@@ -12,7 +12,7 @@
 </div>
 
 
-<?foreach ($tags as $tag):?><a href="#"><span class="label label-info"><?=$tag['tag_name']?></span></a> <?endforeach?>
+
 <?foreach($comments as $comment):?>
     <div class="media">
         <a class="pull-left" href="#">
